@@ -27,6 +27,7 @@ library
   exposed-modules:
       Lib
       Problems.Problem1
+      Problems.Problem2
   other-modules:
       Paths_project_euler
   autogen-modules:

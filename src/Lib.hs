@@ -6,10 +6,12 @@ import System.Environment (getArgs)
 import Text.Read (readMaybe)
 
 import Problems.Problem1 (problem1)
+import Problems.Problem2 (problem2)
 
 problems :: [(Int, IO ())]
 problems = [
-    (1, putStrLn $ show problem1)
+    (1, putStrLn $ show problem1),
+    (2, putStrLn $ show problem2)
     ]
 
 runProblem :: Int -> IO ()
