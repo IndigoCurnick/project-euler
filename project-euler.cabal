@@ -27,7 +27,15 @@ library
   exposed-modules:
       Lib
       Problems.Problem1
+      Problems.Problem10
       Problems.Problem2
+      Problems.Problem3
+      Problems.Problem4
+      Problems.Problem5
+      Problems.Problem6
+      Problems.Problem7
+      Problems.Problem8
+      Problems.Problem9
   other-modules:
       Paths_project_euler
   autogen-modules:
