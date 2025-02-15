@@ -28,7 +28,17 @@ library
       Lib
       Problems.Problem1
       Problems.Problem10
+      Problems.Problem11
+      Problems.Problem12
+      Problems.Problem13
+      Problems.Problem14
+      Problems.Problem15
+      Problems.Problem16
+      Problems.Problem17
+      Problems.Problem18
+      Problems.Problem19
       Problems.Problem2
+      Problems.Problem20
       Problems.Problem3
       Problems.Problem4
       Problems.Problem5
@@ -36,6 +46,9 @@ library
       Problems.Problem7
       Problems.Problem8
       Problems.Problem9
+      Utils.Digits
+      Utils.Factorial
+      Utils.Primes
   other-modules:
       Paths_project_euler
   autogen-modules:
@@ -45,6 +58,7 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , hspec
   default-language: Haskell2010
 
 executable project-euler-exe
@@ -58,6 +72,7 @@ executable project-euler-exe
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , hspec
     , project-euler
   default-language: Haskell2010
 
@@ -73,5 +88,6 @@ test-suite project-euler-test
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , hspec
     , project-euler
   default-language: Haskell2010

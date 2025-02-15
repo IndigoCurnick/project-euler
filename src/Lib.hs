@@ -15,6 +15,16 @@ import Problems.Problem7 (problem7)
 import Problems.Problem8 (problem8)
 import Problems.Problem9 (problem9)
 import Problems.Problem10 (problem10)
+import Problems.Problem11 (problem11)
+import Problems.Problem12 (problem12)
+import Problems.Problem13 (problem13)
+import Problems.Problem14 (problem14)
+import Problems.Problem15 (problem15)
+import Problems.Problem16 (problem16)
+import Problems.Problem17 (problem17)
+import Problems.Problem18 (problem18)
+import Problems.Problem19 (problem19)
+import Problems.Problem20 (problem20)
 
 problems :: [(Int, IO ())]
 problems = [
@@ -27,7 +37,17 @@ problems = [
     (7, putStrLn $ show problem7),
     (8, putStrLn $ show problem8),
     (9, putStrLn $ show problem9),
-    (10, putStrLn $ show problem10)
+    (10, putStrLn $ show problem10),
+    (11, putStrLn $ show problem11),
+    (12, putStrLn $ show problem12),
+    (13, putStrLn $ show problem13),
+    (14, putStrLn $ show problem14),
+    (15, putStrLn $ show problem15),
+    (16, putStrLn $ show problem16),
+    (17, putStrLn $ show problem17),
+    (18, putStrLn $ show problem18),
+    (19, putStrLn $ show problem19),
+    (20, putStrLn $ show problem20)
     ]
 
 runProblem :: Int -> IO ()
